@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".TalkFoodMenu"
+    android:background="@drawable/background"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <RelativeLayout
+        android:layout_width="312dp"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:layout_weight="0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ldlogo" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center"
+        android:clickable="false"
+        android:layout_weight="0"
+        android:layout_margin="30dp">
+
+        <Button android:id="@+id/one"
+            android:text="@string/menu_button_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:layout_margin="5dp"
+            android:background="#ff341b15"
+            android:alpha="0.8"></Button>
+
+        <Button android:id="@+id/two"
+            android:text="@string/menu_button_2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:background="#FF341B15"
+            android:alpha="0.8"></Button>
+
+        <Button android:id="@+id/three"
+            android:text="@string/menu_button_3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:layout_margin="5dp"
+            android:background="#FF341B15"
+            android:alpha="0.8"></Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.maria96kang.talkfood2.Recipe"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="290dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/yogurt"
+        android:id="@+id/photo"
+        android:focusableInTouchMode="false"></RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="215dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/ldrecipe"
+            android:clickable="false">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_margin="0dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/menu_button_4"
+                android:id="@+id/four"
+                android:textSize="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#D1822D"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:layout_marginTop="12dp"
+                android:layout_alignParentEnd="false" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/layout/activity_recipe.xml -->

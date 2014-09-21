@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res" >
+            <file
+                name="background"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/background.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="cake"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/cake.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="dark_choco"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/dark_choco.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="logo"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/logo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pngcolours"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/pngcolours.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="recipe"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/recipe.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="yogurt"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/yogurt.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_instructions"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/layout/activity_instructions.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_recipe"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/layout/activity_recipe.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_talk_food_menu"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/layout/activity_talk_food_menu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="instructions"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/menu/instructions.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="recipe"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/menu/recipe.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="talk_food_menu"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/menu/talk_food_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="menu_button_2" >INSTRUCTIONS
+                </string>
+                <string name="menu_button_1" >START
+                </string>
+                <string name="say" >Say:
+                </string>
+                <string name="menu_caption" >Say \"next\" or \"previous\" or "computer" to choose particular example. Say next or back.
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >TalkFood2
+                </string>
+                <string name="forecast_caption" >Say something typical to a weather forecast like \"sunny spells on Wednesday\".
+                </string>
+                <string name="title_activity_recipe" >Recipe
+                </string>
+                <string name="digits_caption" >Let\'s recognize some digits: say something like \"one two three four five\".
+                </string>
+                <string name="menu_button_4" >BEGIN
+                </string>
+                <string name="menu_button_3" >EXIT
+                </string>
+                <string name="menu" >MENU
+                </string>
+                <string name="instructions" >INSTRUCTIONS
+                </string>
+                <string name="start" >Start
+                </string>
+                <string name="stop" >Stop
+                </string>
+                <string name="title_activity_instructions" >Instructions
+                </string>
+                <string name="kws_caption" >To start demonstration say \"test".
+                </string>
+            </file>
+            <file
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                name="ldlogo"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/ldlogo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ldrecipe"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/ldrecipe.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="iconlogo"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/iconlogo.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="talkfoodlogo"
+                path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/main/res/drawable-hdpi/talkfoodlogo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+        </source>
+        <source path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/build/generated/res/rs/debug" />
+        <source path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/cora/Downloads/pocketsphinx-android-demo-5prealpha-android-studio/app/src/debug/res" />
+    </dataSet>
+
+</merger>
